@@ -1,8 +1,8 @@
 import axios from "axios";
 import { useEffect } from "react";
-import { baseURL, USERS } from "../api/Api";
+import { baseURL, USERS } from "../../Components/api/Api";
 import Cookies from "universal-cookie";
-import Logout from "../../Pages/Forms/Logout";
+import Logout from "../Forms/Logout";
 
 export default function Users() {
   const cookies = new Cookies();
